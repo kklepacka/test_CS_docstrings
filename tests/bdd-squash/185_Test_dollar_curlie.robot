@@ -14,7 +14,7 @@ Test dollar_curlie
 
     &{docstrings} =    Retrieve Docstrings
 
-    Given testing ^ "${docstrings}[docstring_1]"
+    Given testing #test "${docstrings}[docstring_1]"
 
 
 *** Keywords ***
