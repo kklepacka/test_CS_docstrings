@@ -56,7 +56,7 @@ Retrieve Docstrings
     ...                with each docstring name as key, and each docstring value as value :
     ...                ${docstrings} =    Create Dictionary    docstring_1=${docstring_1}    docstring_2=${docstring_2}
 
-    ${docstring_1} =    Set Variable    testing ${echo test}
+    ${docstring_1} =    Set Variable    testing \${echo test}
 
     &{docstrings} =    Create Dictionary    docstring_1=${docstring_1}
 
